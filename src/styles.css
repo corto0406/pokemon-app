@@ -1,0 +1,49 @@
+body, .list-group-item{
+  background-color:  black;
+}
+.modal-content{
+  background-color:  #c4cbe0;
+}
+
+
+.logo{
+  height:78px;
+  width: auto;
+}
+
+.form-control::placeholder {
+text-align: center;
+background-color: antiquewhite;
+}
+
+@media (min-width: 570px) {
+  .list-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 760px) {
+  .list-group {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 990px) {
+  .list-group {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.btn-secondary{
+  color:#070707 ;
+  width: 150px;
+  border-radius: 8px;
+  background-color: red;
+}
+h1{
+  color: red;
+  font-size: 40px;
+  padding: 0 70px;
+}
+
+
